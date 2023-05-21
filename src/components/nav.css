@@ -1,0 +1,18 @@
+/* li::before{
+    content: "er";
+    margin-right: 0;
+    color: #fff;
+    width: 100px;
+    height: 12px;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    bottom: 10px;
+    right:  10px;
+} */
+
+.blurry-div {
+    background-color: black;
+    /* opacity: 0.5; */
+    backdrop-filter: blur(1000px); /* Adjust the blur amount as needed */
+  }
